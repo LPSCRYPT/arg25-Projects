@@ -63,8 +63,10 @@ GAN tests & benchmarks
 Building final system, deploy testnet & run tests
 
 **Progress Summary:**  
-
-
+Significant optimizations for 32x32 pixel ouput GAN after many tests
+Built classifier to recognize image class
+Built composite proof system of GAN generation + image classifier
+Can make and verify proof: This image model generate an image of type [class]
 
 ## Final Wrap-Up
 _After Week 3, summarize your final state: deliverables, repo links, and outcomes._
