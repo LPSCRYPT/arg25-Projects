@@ -12,7 +12,9 @@ Fully Verifiable Autonomous Agents
 
 ![frog](frog_03.png "Frog")
 
-*Verified gan generation onchian*
+*Output from a GAN running in a ZK circuit. 
+It's supposed to be a frog.*
+
 ## Team
 - Team/Individual Name:Moist Cryptography Research Unit
 - GitHub Handles: @lpscrypt
