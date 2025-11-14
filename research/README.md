@@ -72,6 +72,7 @@ Can make and verify proof: This image model generate an image of type [class]
 _After Week 3, summarize your final state: deliverables, repo links, and outcomes._
 
 - **Main Repository Link:**  
+https://github.com/LPSCRYPT/proof_chain
 - **Demo / Deployment Link (if any):**  
 - **Slides / Presentation (if any):**
 
