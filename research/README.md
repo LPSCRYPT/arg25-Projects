@@ -10,6 +10,9 @@ You’ll update your progress weekly **in the same PR**, so mentors and reviewer
 ##  Project Title
 Fully Verifiable Autonomous Agents
 
+![frog](frog_03.png "Frog")
+
+*Verified gan generation onchian*
 ## Team
 - Team/Individual Name:Moist Cryptography Research Unit
 - GitHub Handles: @lpscrypt
@@ -64,9 +67,14 @@ Building final system, deploy testnet & run tests
 
 **Progress Summary:**  
 Significant optimizations for 32x32 pixel ouput GAN after many tests
+
 Built classifier to recognize image class
+
 Built composite proof system of GAN generation + image classifier
+
 Can make and verify proof: This image model generate an image of type [class]
+
+Failed to make final composite classifier proof 
 
 ## Final Wrap-Up
 _After Week 3, summarize your final state: deliverables, repo links, and outcomes._
@@ -77,16 +85,18 @@ https://github.com/LPSCRYPT/proof_chain
 - **Slides / Presentation (if any):**
 
 
-
 ## 🧾 Learnings
-_What did you learn or improve during ARG25?_
+I learned a significant amount about the nuances of building ml models to be workable in zk circuits. There are many operations that balloon verifier memory usage, and in my first few tries I got OOM with 1TB of ram. After a number of optimizations, I was able to run the same model within 400 GB. To get models that are both quality in terms of inference and possible in terms of circuitization requires both deep knowledge of ai + zk fundamentals, as well as much trial and error.
 
+There is very little information on this online, and even experts in this niche don't have the whole picture. Therefore, I believe that publishing a blog post with many of my findings can help other developers who are interested in development of zkml systems but don't have many resources to help them.
+
+However, I did prove to myself that it is possible to fit a 32x32 (and likely larger) GAN inference on-chain, which I believe can be the driver for many more interesting projects in the future.
+
+Even though we cannot fit any decent LLMs in a circuit currently, I believe that a clever combination of other models can create a somewhat agentic crowd-influenced system that, most importantly, has no single point of failure.
 
 
 ## Next Steps
-_If you plan to continue development beyond ARG25, what’s next?_
+I plan to keep developing this idea out until I can make a truly verifiable agent hyperstructure.
 
+This will necesitate the deployment of many different verifier contracts to wire different model inferences together, as well as a sound socio-economic primitive to engage users to interact with the system. While there is still much to be done, I am much more confident in the basic fundamentals of zkml circuit proving to start thinking about these systems beyond the very low level mechanism implementations as I accomplished here. Botto, we're coming for you.
 
-
-_This template is part of the [ARG25 Projects Repository](https://github.com/invisible-garden/arg25-projects)._  
-_Update this file weekly by committing and pushing to your fork, then raising a PR at the end of each week._
