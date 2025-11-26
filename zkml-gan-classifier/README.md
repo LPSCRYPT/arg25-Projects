@@ -10,7 +10,7 @@ You’ll update your progress weekly **in the same PR**, so mentors and reviewer
 ##  Project Title
 Fully Verifiable Autonomous Agents
 
-![frog](frog_03.png "Frog")
+![frog](assets/frog_03.png "Frog")
 
 *Output from a GAN running in a ZK circuit. 
 It's supposed to be a frog.*
@@ -76,10 +76,7 @@ Built composite proof system of GAN generation + image classifier
 
 Can make and verify proof: This image model generate an image of type [class]
 
-Failed to make final composite classifier proof 
-
 ## Final Wrap-Up
-_After Week 3, summarize your final state: deliverables, repo links, and outcomes._
 
 - **Main Repository Link:**  
 https://github.com/LPSCRYPT/proof_chain
